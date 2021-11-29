@@ -5,10 +5,13 @@ body {
 header {
   position: fixed;
   top: 0px;
+  margin: 10px;
+  display: inline-block;
 }
 
 #minha_foto {
   width: 300px;
+  float: none;
 }
 
 h2 {

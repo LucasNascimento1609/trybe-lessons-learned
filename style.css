@@ -21,6 +21,15 @@ nav li {
 header + div {
   margin-top: 140px;
 }
+
+.lado-esquerdo {
+  float: left;
+  width: 30%;
+}
+
+.lado-direito {
+  float: right;
+  width: 60%;
 }
 
 #minha_foto {

@@ -6,12 +6,12 @@ body {
 
 header {
   position: fixed;
-  top: 0px;
   height: 130px;
   background-color: greenyellow;
   text-align: center;
   width: 100%;
   color: white;
+  top: 0px;
 }
 
 nav li {

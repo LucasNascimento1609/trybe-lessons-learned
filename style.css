@@ -2,49 +2,70 @@ body {
   background-color: rgb(253, 251, 251);
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
+  margin: 0;
 }
 
 header {
-  position: fixed;
-  height: 130px;
   background-color: greenyellow;
-  text-align: center;
+  color: black;
+  height: 120px;
   width: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: black;
+}
+
+li a {
+  text-decoration: none;
   color: white;
-  top: 0px;
+  font-size: larger;
 }
 
-nav li {
-  display: inline;
+li a:hover {
+  background-color: greenyellow;
+  color: black;
 }
 
-header + div {
-  margin-top: 140px;
+main {
+  margin-top: 125px;
+  padding: 0 30px;
+  display: flex;
 }
 
 .lado-esquerdo {
-  float: left;
-  width: 30%;
+  display: flex;
+  flex-direction: column;
 }
 
-.lado-direito {
-  float: right;
-  width: 60%;
+#meu_nome {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
 }
 
 #minha_foto {
   width: 300px;
 }
 
-p {
-  font-size: 16px;
+.content {
+  text-align: justify;
+  width: 500px;
 }
 
-h2 {
-  margin: 20px;
+aside {
+  padding: 0 30px;
+  width: 80%;
 }
 
-table {
+footer {
+  bottom: 0;
+  text-align: center;
   border: 1px solid greenyellow;
-  padding: 5px;
 }

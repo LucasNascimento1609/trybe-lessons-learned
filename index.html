@@ -1,90 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Lições aprendidas - Trybe!</title>
-  </head>
-  <body>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lessons Learned</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
     <header id="cabecalho">
-      <div class="barra-superior">
-        <h1 id="titulo">Lições aprendidas - Trybe!</h1>
+        <h1 id="titulo">Lições Aprendidas - Trybe!</h1>
         <nav>
-          <ul>
-            <li><a href="#licoes_aprendidas">Licões Aprendidas</a></li>
-            <li><a href="#licoes_a_aprender">Lições a Aprender</a></li>
-          </ul>
+            <ul>
+                <li><a href="#licoes_aprendidas">Lições Aprendidas</a></li>
+                <li><a href="#licoes_a_aprender">Lições a Aprender</a></li>
+            </ul>
         </nav>
-      </div>
     </header>
 
-    <div>
-      <article class="lado-esquerdo">
-        <img src="./Foto-Lucas.jpg" alt="Foto de Lucas" id="minha_foto" />
-        <a
-          href="https://www.linkedin.com/in/lucas-p-nascimento/"
-          target="_blank"
-        >
-          Lucas Nascimento
-        </a>
-        <h1>Quem sou eu?</h1>
-        <p>
-          Olá eu sou <strong>Lucas Nascimento</strong>, tenho 26 anos e nasci em
-          <strong>São Bernardo do Campo-SP</strong>, mas hoje moro em
-          <strong>Diadema-SP</strong> uma cidade vizinha. Sou formado em
-          Jornalismo, mas agora estou fazendo uma mudança de carreira e vida com
-          a <strong>Trybe</strong>,
-        </p>
-      </article>
-    </div>
-    <div>
-      <table class="lado-direito">
-        <tr>
-          <td>
-            <h2>Lições Aprendidas</h2>
-            <ol id="licoes_aprendidas">
-              <li>Unix</li>
-              <li>Shell</li>
-              <li>Git</li>
-              <li>GitHub</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Slack</li>
-              <li>Zoom</li>
-              <li>Autoliderança</li>
-              <li>Feedback</li>
-            </ol>
-          </td>
-          <td>
-            <h2>Lições a Aprender</h2>
-            <ul id="licoes_a_aprender">
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Node</li>
-              <li>SQL</li>
-              <li>Python</li>
-              <li>Programação orientada a objetos</li>
-              <li>DOM</li>
-              <li>Flexbox</li>
-              <li>Autoconhecimento</li>
-              <li>Lógica de programação</li>
-            </ul>
-          </td>
-        </tr>
-      </table>
-    </div>
+    <main>
+        <section class="lado-esquerdo">
+            <a href="http://www.linkedin.com/in/lucas-p-nascimento" target="_blank" id="meu_nome"><strong>Lucas Nascimento</strong></a>
+            <img src="./Foto-Lucas.jpg" alt="Foto de Lucas" id="minha_foto">
+            <article class="content">
+                <h1>Quem sou eu?</h1>
+                <p>Olá, eu sou <strong>Lucas Nascimento</strong>. Tenho 27 anos e sou de <strong>Diadema-SP</strong>. Com formação em <strong>Jornalismo</strong>, estou em constante busca por novos desafios. Recentemente, decidi trilhar um caminho diferente e emocionante: a transição de carreira para a área de desenvolvimento de softwares. Estou animado para aplicar minha paixão pela resolução de problemas no mundo da tecnologia, buscando conhecimento e habilidades para criar soluções inovadoras.</p>
+            </article>
+        </section>                
+
+        <section class="lado-direito">
+            <table>
+                <tr>
+                    <th>Lições Aprendidas</th>
+                    <th>Lições a Aprender</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ol id="licoes_aprendidas">
+                            <li>Unix</li>
+                            <li>Shell</li>
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Slack</li>
+                            <li>Zoom</li>
+                            <li>Autoliderança</li>
+                            <li>Feedback</li>
+                        </ol>
+                    </td>        
+                    <td>
+                        <ul id="licoes_a_aprender">
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Node</li>
+                            <li>SQL</li>
+                            <li>Python</li>
+                            <li>POO</li>
+                            <li>DOM</li>
+                            <li>Flexbox</li>
+                            <li>Autoconhecimento</li>
+                            <li>Lógica de Programação</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
     <aside>
-      <section>
         <h2>Sobre Autoliderança</h2>
-        <p>
-          Autoliderança é algo fundamental para nossas vidas, e é algo marcante
-          para mim. Quando decidi fazer a Trybe indo contra tudo que esperavam
-          de mim, foi um dos primeiros de muitos momentos de autoliderança.
-        </p>
-      </section>
+        <p>Autoliderança é essencial em nossas vidas, e tem um significado profundo para mim. Quando decidi ingressar na Trybe, marquei o início de uma série de momentos definidores desse traço em mim.</p>
     </aside>
-    <footer id="rodape"></footer>
-  </body>
+    <footer id="rodape">Lucas Nascimento | 2023</footer>
+</body>
 </html>

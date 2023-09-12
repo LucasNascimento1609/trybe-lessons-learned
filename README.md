@@ -1,10 +1,17 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Lessons Learned
+
+## Descrição do Projeto
+
+O "Lessons Learned" foi o primeiro projeto desenvolvido durante o curso da Trybe. Esse projeto testou meus conhecimentos adquiridos na primeirsa sessão do curso, "Introdução à HTML & CSS". Neste projeto, eu desenvolvi os arquivos `index.html` e `style.css`, utilizando principalmente HTML Semântico. Todos os outros arquivos, foram criados pela Trybe, incluindo os testes, que foram criados para avaliar meus conhecimentos.
+
+## Instalação
+
+[Instruções de instalação]
+
+## Uso
+
+[Como usar o projeto]
+
+## Créditos
+
+- Trybe
